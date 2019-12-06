@@ -33,6 +33,10 @@
   <action id="CodeCompletion" />
   <action id="DBNavigator.Actions.MainMenu.MethodExecutionHistory" />
   <action id="DatabaseView.OpenDdlInConsole" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
   <action id="Debugger.RemoveAllBreakpoints">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
@@ -42,6 +46,8 @@
   <action id="Diff.PrevChange" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorCodeBlockEndWithSelection" />
+  <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
@@ -136,6 +142,7 @@
   <action id="Jdbc.OpenEditor.DDL">
     <mouse-shortcut keystroke="control button1" />
   </action>
+  <action id="MaximizeToolWindow" />
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="NextEditorTab" />
@@ -150,11 +157,23 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="ctrl back_slash" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
   <action id="ServiceView.GroupByContributor" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
   <action id="ShowUsages" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+    <keyboard-shortcut first-keystroke="shift ctrl quote" />
+  </action>
   <action id="SurroundWith" />
   <action id="SwitchCoverage" />
   <action id="ToggleLineBreakpoint">
