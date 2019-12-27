@@ -23,6 +23,10 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
   <action id="Debugger.RemoveAllBreakpoints">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
@@ -31,6 +35,7 @@
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
+  <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCut">
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
