@@ -5,7 +5,9 @@
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
-  <action id="ActivateProjectToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+  </action>
   <action id="ActivateRunToolWindow" />
   <action id="ActivateServicesToolWindow" />
   <action id="ActivateStructureToolWindow" />
