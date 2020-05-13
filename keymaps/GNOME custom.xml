@@ -133,6 +133,7 @@
   <action id="IncrementWindowHeight" />
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="shift ctrl alt l" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="MethodDown" />
   <action id="MethodOverloadSwitchDown" />
@@ -153,9 +154,7 @@
   <action id="PreviousEditorTab" />
   <action id="PreviousOccurence" />
   <action id="PreviousTab" />
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="ctrl t" />
-  </action>
+  <action id="ReformatCode" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="shift ctrl x" />
